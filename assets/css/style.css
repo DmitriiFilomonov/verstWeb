@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.conteiner{
+    max-width: 1195px;
+    margin: 0 auto;
+}
+.wrapper{
+    background-image: url("../img/fon.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+
+}
+.header{
+    padding-top: 34px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    margin-bottom: 166px;
+}
+.logo{
+    margin-right: 35px;
+}
+.menu ul{
+    display: flex;
+}
+.menu li + li{
+    margin-left: 25px;
+
+}
+.menu a{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.item{
+    text-align: start;
+    color: white;
+}
+.title{
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 141px;
+    margin-bottom: 15px;
+}
+.text{
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 46px;
+}
+.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+.slick-dots li + li{
+    margin-left: 25px;
+}
+.slick-dots button{
+    font-size: 0;
+    border: none;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid white;
+    outline: none;
+}
